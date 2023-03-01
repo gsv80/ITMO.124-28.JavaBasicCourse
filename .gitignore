@@ -27,3 +27,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/ITMO.124-28.JavaBasicCourse.iml
+/.idea/
