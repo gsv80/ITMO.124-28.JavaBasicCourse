@@ -13,13 +13,13 @@ public class Main {
         Pump pumpTest = new Pump();
         System.out.println(pumpTest);
 
-        Pump flygtNP = new Pump(PumpType.Console,Installation.Submersible, "Waste Water", true);
+        Pump flygtNP = new Pump(PumpType.CONSOLE,Installation.SUBMERSIBLE, "Waste Water", true);
         System.out.println(flygtNP);
 
-        Pump np3153 = new Pump(PumpType.Console, Installation.Submersible, "Waste Water", 150.0, 20.1,true, 13.5 );
+        Pump np3153 = new Pump(PumpType.CONSOLE, Installation.SUBMERSIBLE, "Waste Water", 150.0, 20.1,true, 13.5 );
         System.out.println(np3153);
 
-        Pump asPumps = new Pump(PumpType.SplitCase,Installation.DryHorizontal,"Clean Water", true);
+        Pump asPumps = new Pump(PumpType.SPLITCASE,Installation.DRYHORIZONTAL,"Clean Water", true);
         asPumps.setMotor(355.0);
         System.out.println(asPumps);
 
