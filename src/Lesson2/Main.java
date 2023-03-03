@@ -9,6 +9,10 @@ public class Main {
         calcDivInt.div(5d,3d);
         calcDivInt.mult(5.0,3.0);
 
+        Calculator calc = new Calculator();
+        calc.div(5,3);
+        calc.div(5L,2L);
+
 //        Lesson 2 Task 2
         Pump pumpTest = new Pump();
         System.out.println(pumpTest);

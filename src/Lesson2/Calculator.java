@@ -39,10 +39,10 @@ public class Calculator {
         System.out.println(num1/num2);
     }
     public static void div(Long num1, Long num2){
-        System.out.println(num1/num2);
+        System.out.println(num1*1.0/num2);
     }
     public static void div(Integer num1,Integer num2){
-        System.out.println(num1/num2);
+        System.out.println(num1*1.0/num2);
     }
 
 }
