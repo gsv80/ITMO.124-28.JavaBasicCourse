@@ -54,7 +54,7 @@ public class Main {
         System.out.println("=================");
 
         System.out.println("Task4");
-//        System.out.println(PartTwo.findUniq(arPart2));
+        System.out.println(PartTwo.findUniq(arPart2));
         System.out.println("=================");
     }
 }
