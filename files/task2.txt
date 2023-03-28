@@ -1,0 +1,1 @@
+Right now string #2 - I'm testing to write a string to file
